@@ -2,6 +2,10 @@
 
 A spatial navigation library for devices with input via directional controls
 
+## RedBeeMedia fork
+
+**The RedBeeMedia fork contains bugfixes and type improvements that won't be merged back into the upstream repository since it is in maintenance mode.**
+
 ## :nut_and_bolt: Maintenance Mode :nut_and_bolt:
 LRUD is now in maintenance mode; existing bugs will be fixed, but new features will not be added. A new library called [LRUD Spatial](https://github.com/bbc/lrud-spatial) is now available to the Open Source community. 
 

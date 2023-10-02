@@ -1000,6 +1000,12 @@ export class Lrud {
     if (focusableNode) {
       this.assignFocus(focusableNode)
     } else {
+      if (this.currentFocusNode) {
+        this.emitter.emit('blur', this.currentFocusNode)
+        if (this.currentFocusNode.onBlur) {
+          this.currentFocusNode.onBlur(this.currentFocusNode)
+        }
+      }
       this.currentFocusNode = undefined
     }
   }
